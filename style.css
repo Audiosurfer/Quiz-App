@@ -1,0 +1,68 @@
+body {
+    background: #2689ba;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+
+
+#startplace {
+    text-align: center;
+    padding-top: 11%;
+    clear: both;
+}
+
+#startplace h1 {
+    font-size: 80px;
+}
+
+#startplace ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 19px;
+}
+
+#startplace ul li:hover {
+    text-decoration: underline;
+}
+
+#quizspot {
+    padding-top: 11%;
+    margin:0 auto;
+    width: 1200px;
+}
+
+#quizspot p {
+    font-size: 24px;
+}
+
+.quizopt {
+    float: left;
+    margin: 10px;
+}
+
+.quizopt img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+}
+
+.quizopt img:hover {
+    width: 230px;
+    height: 230px;
+    border: 3px solid #1a51e8;
+}
+
+.hidden {
+    display: none;
+}
+
+#results {
+    clear: both;
+    margin:0 auto;
+    width: 1200px;
+    padding-top: 11%;
+    font-size: 40px;
+}
+
