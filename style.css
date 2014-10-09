@@ -4,7 +4,9 @@ body {
     color: white;
 }
 
-
+li {
+    list-style: none;
+}
 
 #startplace {
     text-align: center;
@@ -16,25 +18,26 @@ body {
     font-size: 80px;
 }
 
-#startplace ul li {
-    list-style: none;
+#startplace li {
     display: inline-block;
     padding-right: 40px;
     font-size: 19px;
+    cursor: pointer;
 }
 
-#startplace ul li:hover {
+#startplace li:hover {
     text-decoration: underline;
 }
 
 #quizspot {
     padding-top: 11%;
     margin:0 auto;
-    width: 1200px;
+    width: 1300px;
 }
 
 #quizspot p {
     font-size: 24px;
+    clear: both;
 }
 
 .quizopt {
@@ -58,11 +61,5 @@ body {
     display: none;
 }
 
-#results {
-    clear: both;
-    margin:0 auto;
-    width: 1200px;
-    padding-top: 11%;
-    font-size: 40px;
-}
+
 

@@ -5,34 +5,91 @@
         <link type="text/css" rel=stylesheet href="style.css"/>
         <link type="text/css" rel=stylesheet href="normalize.css"/>
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="questions.js"></script>
     </head>
     <body>
         <div id="startplace">
             <h1>Music Quiz</h1>
             <ul>
                 <li>How To Play</li>
-                <li>Start Game</li>
+                <li id="startgame">Start Game</li>
             </ul>
         </div>
-        <div id="quizspot">
+        <div id="quizspot" class="hidden">
             <h1>Music Quiz</h1>
             <p>What album includes the following song?</p>
-            <div class="quizopt">
-                <img src="homelikenoplaceisthere.jpg"/>
+             <div id="q1">  
+                <div class="quizopt">
+                    <img src="album-covers/kendricklamar-goodkidmaadcity.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/kanyewest-mybeautifuldarktwistedfantasy.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/madvillain-madvillainy.png"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/outkast-aquemini.jpg"/>
+                </div>
+            </div> 
+            <div id="q2" class="hidden">
+                <div class="quizopt">
+                    <img src="album-covers/animalcollective-sungtongs.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/devendrabanhart-rejoicinginthehands.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/joannanewsom-themilkeyedmender.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/marniestern-thisisit.jpg"/>
+                </div>
             </div>
-            <div class="quizopt">
-                <img src="howtodresswellalbumcover.jpg"/>
+            <div id="q3" class="hidden">
+                <div class="quizopt">
+                    <img src="album-covers/fionaapple-theidlerwheel.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/catpower-moonpix.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/lauramarling-onceiwasaneagle.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/nekocase-theworsethingsget.jpg"/>
+                </div>
             </div>
-            <div class="quizopt">
-                <img src="sharonvanettenalbumcover.jpg"/>
+            <div id="q4" class="hidden">
+                <div class="quizopt" class="hidden">
+                    <img src="album-covers/fkatwigsalbumcover.png"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/jessieware-devotion.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/janellemonae-theelectriclady.png"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/kelela-cut4me.jpg"/>
+                </div>
             </div>
-            <div class="quizopt">
-                <img src="St-Vincent-album-cover.jpg"/>
+            <div id="q5" class="hidden">
+            <div class="quizopt" class="hidden">
+                    <img src="album-covers/pavement-slantedandenchanted.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/pjharvey-ridofme.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/pixies-surferrosa.jpg"/>
+                </div>
+                <div class="quizopt">
+                    <img src="album-covers/thedismembermentplan-emergencyandi.jpg"/>
+                </div>
             </div>
-        </div>
-        <div id="results">
-            <p>You scored 5/5! You're a music expert!</p>
-            <p>Play again?</p>
         </div>
     </body>
 </html>
