@@ -4,11 +4,15 @@ body {
     color: white;
 }
 
+.quizopt img, #startplace li, #continue, #howtoplay, #restart {
+    cursor: pointer;
+}
+
 li {
     list-style: none;
 }
 
-#startplace {
+#startplace, #results {
     text-align: center;
     padding-top: 11%;
     clear: both;
@@ -22,7 +26,6 @@ li {
     display: inline-block;
     padding-right: 40px;
     font-size: 19px;
-    cursor: pointer;
 }
 
 #startplace li:hover {
@@ -42,12 +45,13 @@ li {
 
 .quizopt {
     float: left;
-    margin: 10px;
+    
 }
 
 .quizopt img {
     width: 250px;
     height: 250px;
+    margin: 5px;
     border: 3px solid black;
 }
 
@@ -57,9 +61,20 @@ li {
     border: 3px solid #1a51e8;
 }
 
+#results h1 {
+    font-size: 60px;
+}
+
+#startplace p {
+    font-size: 19px;
+}
+
+.selected {
+    border: 5px solid #0fc334 !important;
+}
+
 .hidden {
     display: none;
 }
-
 
 
